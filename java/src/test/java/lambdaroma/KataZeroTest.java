@@ -2,8 +2,7 @@ package lambdaroma;
 
 import lambdaroma.katazero.KataZeroImperativo;
 import lambdaroma.katazero.KataZeroInterfaccia;
-import lambdaroma.katazero.KataZeroStreamACatena;
-import lambdaroma.katazero.KataZeroStreamEspliciti;
+import lambdaroma.katazero.KataZeroStream;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Tag;
 import org.junit.jupiter.api.Test;
@@ -48,12 +47,7 @@ public class KataZeroTest {
 
     @Test
     public void verificaStreamEspliciti(){
-        verifica(new KataZeroStreamEspliciti());
-    }
-
-    @Test
-    public void verificaStreamACatena(){
-        verifica(new KataZeroStreamACatena());
+        verifica(new KataZeroStream());
     }
 
 }

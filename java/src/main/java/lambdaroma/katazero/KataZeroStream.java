@@ -6,7 +6,7 @@ import java.util.stream.*;
 /***
  * Soluzioni compatte del primo esercizio. Sono soluzioni più brevi, ma più difficili da capire.
  */
-public class KataZeroStreamACatena implements KataZeroInterfaccia {
+public class KataZeroStream implements KataZeroInterfaccia {
 
     @Override
     public List<Integer> kataZeroA() {
@@ -35,7 +35,7 @@ public class KataZeroStreamACatena implements KataZeroInterfaccia {
 
     @Override
     public int kataZeroF() {
-      return null;
+      return 0;
     }
 
     @Override
