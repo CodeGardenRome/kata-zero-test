@@ -1,0 +1,6 @@
+[package]
+name = "kata-zero-rust"
+version = "0.1.0"
+authors = ["maggiolo00 <maggiolo00@gmail.com>"]
+
+[dependencies]

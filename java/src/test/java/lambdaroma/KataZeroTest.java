@@ -1,5 +1,10 @@
 package lambdaroma;
 
+<<<<<<< HEAD
+=======
+import lambdaroma.katazero.KataZeroImperativo;
+import lambdaroma.katazero.KataZeroInterfaccia;
+>>>>>>> 0d5cae56f1cbe50b3a867f9fe3118497020f65c0
 import lambdaroma.katazero.KataZeroStream;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Tag;
@@ -77,6 +82,7 @@ public class KataZeroTest {
     }
 
     @Test
+<<<<<<< HEAD
     void kataZeroL(){
         assertEquals(Arrays.asList(4,5,6,6,4,5,4), daVerificare.kataZeroL());
     }
@@ -84,6 +90,15 @@ public class KataZeroTest {
     @Test
     void kataZeroM(){
         assertEquals(Arrays.asList("A","C","A","C","E","M","S"), daVerificare.kataZeroM());
+=======
+    public void verificaImperativo(){
+        verifica(new KataZeroImperativo());
+    }
+
+    @Test
+    public void verificaStreamEspliciti(){
+        verifica(new KataZeroStream());
+>>>>>>> 0d5cae56f1cbe50b3a867f9fe3118497020f65c0
     }
 
 }
