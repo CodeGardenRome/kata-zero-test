@@ -76,4 +76,14 @@ public class KataZeroTest {
         assertEquals(lunghezzeNomi, daVerificare.kataZeroK());
     }
 
+    @Test
+    void kataZeroL() {
+        assertEquals(Arrays.asList(4, 5, 6, 6, 4, 5, 4), daVerificare.kataZeroL());
+    }
+
+    @Test
+    void kataZeroM() {
+        assertEquals(Arrays.asList("A","C","A","C","E","M","S"), daVerificare.kataZeroM());
+    }
+
 }
